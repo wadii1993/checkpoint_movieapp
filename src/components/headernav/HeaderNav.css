@@ -1,0 +1,19 @@
+h1 {
+  animation-timing-function: linear;
+}
+#titre {
+  animation: mymov 5s infinite;
+}
+@keyframes mymov {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 300px;
+  }
+}
+.icon {
+  color: rgba(65, 228, 25, 0.664);
+  border-radius: 2px;
+  font-size: 20px;
+}
